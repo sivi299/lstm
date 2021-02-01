@@ -43,8 +43,8 @@ traininglabels = []
 
 lbptopval = 1
 
-training_list = numpy.load('numpy_training_datasets/lstm_microexpstcnn_images.npy')
-traininglabels =numpy.load('numpy_training_datasets/lstm_microexpstcnn_labels.npy')
+training_list = numpy.load('./lstm_microexpstcnn_images.npy')
+traininglabels =numpy.load('./lstm_microexpstcnn_labels.npy')
 
 timesteps = image_depth
 width = image_rows
